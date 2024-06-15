@@ -105,7 +105,7 @@ html {
   line-height: 1.8;
 }
 
-#resources,
+#acc,
 #support {
   background-color: #1d2f6f;
   color: #f9e9ec;
@@ -113,7 +113,7 @@ html {
 }
 
 #abt,
-#job {
+#inv {
   background-color: #f9e9ec;
   color: #1d2f6f;
   padding: 4rem;
@@ -181,7 +181,7 @@ html {
   animation: fadeIn 3s ease-out;
 }
 
-#resources .col,
+#acc .col,
 #support .col{
   background-color: #8390FA;
   border-radius: 8px;
@@ -190,7 +190,7 @@ html {
   margin: 20px;
 }
 
-#resources .col h3,
+#acc .col h3,
 #support .col h3{
   font-size: 1.8rem;
   font-weight: 600;
@@ -198,7 +198,7 @@ html {
   color: #FAC748;
 }
 
-#resources .col p,
+#acc .col p,
 #support .col p{
   font-size: 1.1rem;
   line-height: 1.8;
@@ -206,7 +206,7 @@ html {
 }
 
 #abt .col,
-#job .col{
+#inv .col{
   background-color: #F88DAD;
   border-radius: 8px;
   padding: 20px;
@@ -215,7 +215,7 @@ html {
 }
 
 #abt .col h3,
-#job .col h3{
+#inv .col h3{
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem;
@@ -223,7 +223,7 @@ html {
 }
 
 #abt .col p,
-#job .col p{
+#inv .col p{
   font-size: 1.1rem;
   line-height: 1.8;
   color: #F9E9EC;
