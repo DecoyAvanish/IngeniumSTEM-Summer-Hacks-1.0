@@ -305,3 +305,12 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+
+/* IRA page */
+section.abtIRA{
+  width: 90vh;
+  height: 50vh;
+  background-size: cover;
+  background-image:url("https://cdn.britannica.com/79/244879-050-8483C547/Documents-about-Individual-retirement-account-IRA-on-a-desk.jpg");
+}
