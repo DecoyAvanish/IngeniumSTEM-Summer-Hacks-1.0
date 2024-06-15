@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #1d2f6f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent !important;
+  padding: 0.5rem 1rem;
+}
+
+.main {
+  color: #f88dad !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  animation: fadeIn 1s ease-out;
+}
+
+.navbar-nav .nav-link {
+  color: #f88dad !important;
+  font-size: 1rem;
+  font-weight: 500;
+  animation: moveleft 3s ease-out;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  transform: scale(1.2);
+}
+
+/* Header */
+.header {
+  position: relative;
+  padding: 100px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(rgba(29, 47, 111, 0.6), rgba(29, 47, 111, 1)), url("https://static.vecteezy.com/system/resources/previews/042/197/780/non_2x/ai-generated-money-backgrounds-free-photo.jpg");
+  animation: moveBackground 15s linear infinite;
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fac748;
+  animation: glow 1.5s ease-in-out infinite;
+}
+
+.header p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #fac748;
+  display: inline-block;
+  overflow: hidden;
+  animation: typewriter 2s steps(20, end);
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  animation: fadeIn 1.8s ease-out;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fac748;
+  margin: 20px auto;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#resources,
+#support {
+  background-color: #1d2f6f;
+  color: #f9e9ec;
+  padding: 4rem;
+}
+
+#abt,
+#job {
+  background-color: #f9e9ec;
+  color: #1d2f6f;
+  padding: 4rem;
+}
+
+/* Mission Statement */
+.mission-statement {
+  background-color: #f9e9ec;
+  color: #1d2f6f;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mission-statement h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fac748;
+  animation: fadeIn 2.4s ease-out;
+}
+
+.mission-statement p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  animation: fadeIn 2.6s ease-out;
+}
+
+/* Info Blocks */
+.info-container {
+  max-height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.info-block {
+  min-height: 100vh;
+  border-bottom: 1px solid #fff;
+  padding: 4rem;
+  text-align: center;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9e9ec;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2.8s ease-out;
+}
+
+.info-block h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #fac748;
+  animation: fadeIn 2.8s ease-out;
+}
+
+.info-block p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  animation: fadeIn 3s ease-out;
+}
+
+#resources .col,
+#support .col{
+  background-color: #8390FA;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+#resources .col h3,
+#support .col h3{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem;
+  color: #FAC748;
+}
+
+#resources .col p,
+#support .col p{
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #F9E9EC;
+}
+
+#abt .col,
+#job .col{
+  background-color: #F88DAD;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+#abt .col h3,
+#job .col h3{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 1rem;
+  color: #FAC748;
+}
+
+#abt .col p,
+#job .col p{
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #F9E9EC;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(192, 192, 192, 0.5);
+  border-radius: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes moveleft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Hover Effect for Cards */
+.col:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
