@@ -1,0 +1,141 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* Reset and General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1d2f6f; /* Dark blue background */
+  color: #fff; /* White text color */
+}
+
+/* Smooth scrolling behavior for internal links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent !important;
+  padding: 0.5rem 1rem;
+}
+
+.main {
+  color: #f88dad !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Aligning elements within navbar to left and right */
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  color: #f88dad !important;
+  font-size: 1rem;
+  font-weight: 500;
+  animation: moveleft 3s ease-out;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  transform: scale(1.2);
+}
+
+/* Section Styles */
+.container {
+  text-align: left; /* Left align text */
+}
+
+.loan-section {
+  background-color: #121212; /* Dark background for sections */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  padding: 50px; /* Padding inside the section */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  color: #ffffff; /* White text color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items evenly */
+}
+
+.loan-section.reverse {
+  flex-direction: row-reverse; /* Reverse the order of the elements */
+}
+
+.loan-section:hover {
+  transform: translateY(-10px); /* Lift section on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+}
+
+.loan-section h3 {
+  color: #ffffff; /* White heading color */
+  font-size: 2rem; /* Reduced font size */
+  margin-bottom: 1rem; /* Reduced space below headings */
+}
+
+.loan-section p {
+  font-size: 1rem; /* Reduced font size */
+  line-height: 1.5; /* Reduced line height for paragraphs */
+}
+
+.loan-section img {
+  max-width: 500px; /* Maximum width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 20px; /* Space between image and text */
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+#lc,
+#int,
+#lcredit,
+#inv,
+#comm{
+  background-image: linear-gradient(180deg, #1D2F6F, #8390FA);
+}
+
+#ins,
+#sec,
+#term,
+#per{
+  background-image: linear-gradient(180deg, #8390FA, #F9E9EC);
+}
+
+#bal,
+#unsec,
+#mort,
+#guar{
+  background-image: linear-gradient(180deg, #F9E9EC, #1D2F6F);
+}
+
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .main {
+    font-size: 1.8rem;
+  }
+  .navbar-nav .nav-link {
+    margin: 0 15px;
+  }
+}
