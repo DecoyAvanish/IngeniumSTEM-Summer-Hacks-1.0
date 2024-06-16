@@ -1,16 +1,13 @@
 /* Import Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-/* Reset and General Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #1d2f6f; /* Dark blue background */
-  color: #fff; /* White text color */
+  background-color: #1d2f6f;
+  color: #fff;
 }
-
-/* Smooth scrolling behavior for internal links */
 html {
   scroll-behavior: smooth;
 }
@@ -53,46 +50,46 @@ html {
 
 /* Section Styles */
 .container {
-  text-align: left; /* Left align text */
+  text-align: left;
 }
 
 .loan-section {
-  background-color: #121212; /* Dark background for sections */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-  padding: 50px; /* Padding inside the section */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-  color: #ffffff; /* White text color */
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space items evenly */
+  background-color: #121212;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .loan-section.reverse {
-  flex-direction: row-reverse; /* Reverse the order of the elements */
+  flex-direction: row-reverse;
 }
 
 .loan-section:hover {
-  transform: translateY(-10px); /* Lift section on hover */
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
 }
 
 .loan-section h3 {
-  color: #ffffff; /* White heading color */
-  font-size: 2rem; /* Reduced font size */
-  margin-bottom: 1rem; /* Reduced space below headings */
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .loan-section p {
-  font-size: 1rem; /* Reduced font size */
-  line-height: 1.5; /* Reduced line height for paragraphs */
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .loan-section img {
-  max-width: 500px; /* Maximum width for images */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 20px; /* Space between image and text */
-  border-radius: 10px; /* Rounded corners for images */
+  max-width: 500px;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 10px;
 }
 
 #lc,
