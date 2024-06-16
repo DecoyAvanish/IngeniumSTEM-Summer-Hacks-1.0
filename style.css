@@ -306,6 +306,56 @@ html {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* About Us Content */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #fac748;
+  animation: fadeIn 1s ease-out;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+  color: #f9e9ec;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-section {
+  background-color: #8390FA;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-out;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #fac748;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #f9e9ec;
+}
+
 
 /* IRA page */
 section.abtIRA{
