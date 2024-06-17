@@ -1,37 +1,135 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Econ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>401(k)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+        background-color: #1d2f6f;
+        color: #f88dad;
+      }
 
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="main" href="home.html">Econ</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#acc">Resources</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#inv">Job Opportunities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#support">Small Business Support</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#abt">About Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+      h1, h2, h3, h4, h5, h6 {
+        color: #fac748;
+        font-weight: bold;
+      }
 
-    <!-- info abt ira -->
-    <section class = "abtIRA">
-      
-    </section>
+      p {
+        color: #f9e9ec;
+        line-height: 1.6;
+      }
 
-  </body>
+      /* Container Styles */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      .section-container {
+        background-color: rgba(29, 47, 111, 0.8);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fac748;
+        margin-bottom: 20px;
+      }
+
+      .section-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: #fac748;
+        margin: 10px auto;
+      }
+
+      /* Animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section-container" style="border-color: white">
+      <h1>What Is A 401(k)?</h1>
+      <p>A 401(k) is a retirement savings vehicle offering tax benefits, named after a section of the U.S. Internal Revenue Code. </p>
+      <p>It is an employer-sponsored, defined contribution plan where employees can save for retirement. 
+      Employers may optionally match employee contributions, and in some cases, this matching is mandatory.</p>
+      <p>There are two primary types of 401(k) plans: traditional and Roth:</p>
+      <ol>
+        <li class="list-item"> In a traditional 401(k), employee contributions are made with pretax income, 
+      reducing taxable income in the contribution year, 
+      but withdrawals during retirement are subject to income tax.</li>
+        <li class="list-item">Conversely, contributions to R
+      oth 401(k)s are made with after-tax income, offering no tax deduction in the contribution year,
+       but withdrawals, known as qualified distributions, are tax-free.</li>
+      </ol>
+    </div>
+
+    <div class="section-container">
+      <h2>What Is A IRA?</h2>
+      <p>An individual retirement account (IRA) is a tax-advantaged savings account for long-term financial planning. It’s available to individuals with earned income. While IRAs are primarily designed for self-employed individuals without access to workplace retirement accounts like the 401(k), anyone with a workplace retirement plan can also open an IRA and contribute additional savings. You can establish an IRA through a bank, investment company, online brokerage, or personal broker</p>
+    </div>
+    <div class="section-container">
+        <h2>Contribution Limits</h2>
+        <p>In 2023, the maximum annual individual contribution to traditional IRAs is $6,500. If you’re 50 or older, you can add a catch-up contribution of $1,000, bringing the total to $7,500. </p>
+        <p>For 2024, the maximum annual individual contribution is $7,000, with the same $1,000 catch-up contribution for those aged 50 and above. </p>
+        <p>If you lack a workplace retirement plan, your traditional IRA contributions are fully deductible. However, if you (or your spouse, if married) have a workplace retirement plan (like a 401(k) or 403(b)), your modified adjusted gross income (MAGI) determines the deductibility of your traditional IRA contributions.</p>
+      </div>
+
+      <div class="section-container">
+        <h2>SEP IRA</h2>
+        <p>Self-employed individuals, including independent contractors, freelancers, and small-business owners, have the option to establish SEP IRAs. These accounts adhere to the same tax rules for withdrawals as traditional IRAs. In 2023, SEP IRA contributions are capped at 25% of compensation or $66,000, whichever is lower.</p>
+        <p>For 2024, the maximum allowed contribution increases to $69,000. Business owners who create SEP IRAs for their employees can deduct the contributions made on behalf of their employees. However, employees themselves cannot contribute to their SEP IRAs, and the IRS taxes their withdrawals as income. </p>
+      </div>
+
+      <div class="section-container">
+        <h2>Simple IRA</h2>
+        <p>The SIMPLE IRA is designed for small businesses and self-employed individuals. Similar to traditional IRAs, it adheres to the same tax rules for withdrawals. However, unlike SEP IRAs, SIMPLE IRAs allow employees to contribute to their accounts, and employers are required to make contributions as well. All contributions are tax-deductible, potentially lowering the business or employee’s tax bracket.</p>
+        <p>In 2023, the SIMPLE IRA employee contribution limit is $15,500, with a catch-up limit of $3,500 for workers aged 50 and older. For 2024, the contribution limit increases to $16,000, while the maximum catch-up amount remains at $3,500.</p>
+      </div>
+
+      <div class="section-container">
+        <h2>Required Minimum Distributions (RMDs)</h2>
+        <p>Required minimum distributions (RMDs) are mandatory withdrawals that individuals with traditional IRA and 401(k) accounts must take annually once they reach a specific age. The age requirement has been adjusted a couple of times. Starting from January 1, 2023, account holders must begin withdrawing funds in the year they turn 73. This age threshold will increase to 75 by 2033.</p>
+        <p>The RMD amount is determined based on the account balance and the account holder’s life expectancy. The IRS provides a worksheet to calculate this required amount1. Failing to meet the minimum distribution triggers a significant tax penalty. As of 2023, this penalty amounts to 25% of the account balance, which is half of the previous penalty but still substantial. However, taxpayers can reduce this penalty to 10% by taking corrective action promptly</p>
+      </div>
+
+      <div class="section-container">
+        <h2>Advantages Of An IRA</h2>
+        <p>An Individual Retirement Account (IRA) provides a tax-advantaged way to save for retirement.</p>
+        <p>Depending on the type of IRA—whether it’s a traditional IRA or a Roth IRA—it can either reduce your current tax bill when you contribute or allow tax-free withdrawals during retirement.</p>
+        <p>Contributions to a traditional IRA may lower your taxable income, while investment gains within the account are tax-deferred. On the other hand, Roth IRA contributions are made with after-tax dollars, but qualified withdrawals are entirely tax-free. Additionally, IRAs are insured by the Federal Deposit Insurance Corporation (FDIC), covering customer deposits up to $250,000 per account at FDIC-insured banks or savings and loan associations. </p>
+      </div>
+
+
+    <div class="button-container">
+      <button id="backButton"><a href="loans.html">Previous</a></button>
+      <button id="home"><a href="rothIRA.html">Home</a></button>
+    </div>
+  </div>
+</body>
 </html>
