@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Business Support</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="loans.css">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: #1d2f6f;
+            color: #f88dad;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #fac748;
+            font-weight: bold;
+        }
+
+        p, ul, ol{
+            color: #f9e9ec;
+            line-height: 1.6;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section-container {
+            background-color: rgba(29, 47, 111, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fac748;
+            margin-bottom: 20px;
+        }
+
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: #fac748;
+            margin: 10px auto;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #1d2f6f;
+            padding: 1rem 0;
+        }
+
+        .navbar .main {
+            color: #fac748;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fac748;
+        }
+
+        .navbar .nav-link {
+            color: #f9e9ec !important;
+            font-weight: bold;
+        }
+
+        .navbar .nav-link:hover {
+            color: #fac748 !important;
+        }
+
+        /* Main Content Styles */
+        .title1, .title2, .title3 {
+            color: #fac748;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .inf1, .inf2, .inf3 {
+            color: #f9e9ec;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            background-color: #fac748;
+            color: #1d2f6f;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button-container button:hover {
+            background-color: #f9e9ec;
+            color: #fac748;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="main" href="index.html">Econ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mark">Market Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#busi">Business Modeling</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comp">Competitive Analysis</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="mark" class="container">
+        <h2 class="title1">Market Research</h2>
+        <p class="inf1">Market research is the process of gathering, analyzing, and interpreting information about a market, including information about the target audience and competitors. Here are some tips for conducting effective market research:</p>
+        <ul class="inf1">
+            <li>Identify your target market and understand their needs and preferences.</li>
+            <li>Analyze market trends and industry statistics.</li>
+            <li>Use surveys, interviews, and focus groups to gather primary data.</li>
+            <li>Leverage secondary data sources such as industry reports and academic studies.</li>
+            <li>Analyze the data to identify opportunities and threats in the market.</li>
+        </ul>
+    </section>
+
+    <section id="busi" class="container">
+        <h2 class="title2">Business Modeling</h2>
+        <p class="inf2">Business modeling is the process of creating a representation of how your business will create, deliver, and capture value. Here are some key elements to consider:</p>
+        <div class="list">
+          <ul class="inf2">
+              <li>Define your value proposition: what makes your product or service unique.</li>
+              <li>Identify key activities and resources needed to deliver your value proposition.</li>
+              <li>Determine your revenue streams and cost structure.</li>
+              <li>Map out your customer segments and how you will reach them.</li>
+              <li>Establish partnerships and alliances that can help you grow your business.</li>
+          </ul>
+      </div>
+    </section>
+
+    <section id="comp" class="container">
+        <h2 class="title3">Competitive Analysis</h2>
+        <p class="inf3">Competitive analysis involves identifying your competitors and evaluating their strategies to determine their strengths and weaknesses relative to your own business. Here are some steps to conduct a competitive analysis:</p>
+        <ul class="inf3">
+            <li>Identify your direct and indirect competitors.</li>
+            <li>Analyze competitors’ product offerings, pricing, and marketing strategies.</li>
+            <li>Assess competitors’ strengths and weaknesses.</li>
+            <li>Identify opportunities for differentiation and competitive advantage.</li>
+            <li>Monitor competitors’ activities and adapt your strategies accordingly.</li>
+        </ul>
+    </section>
+
+    <div class="button-container">
+        <button><a href="home.html">Back to Home</a></button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
