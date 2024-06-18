@@ -98,21 +98,24 @@ html {
 #int,
 #lcredit,
 #inv,
-#comm{
+#comm,
+#mark{
   background-image: linear-gradient(180deg, #1D2F6F, #8390FA);
 }
 
 #ins,
 #sec,
 #term,
-#per{
+#per,
+#busi{
   background-image: linear-gradient(180deg, #8390FA, #F9E9EC);
 }
 
 #bal,
 #unsec,
 #mort,
-#guar{
+#guar,
+#comp{
   background-image: linear-gradient(180deg, #F9E9EC, #1D2F6F);
 }
 
@@ -147,6 +150,10 @@ html {
 .inf3 {
   font-family: 'Courier New', monospace;
   color: #e9fff9 !important;
+}
+
+.list ul.inf2 {
+    color: #1D2F6F !important;
 }
 
 /* take to next page */
