@@ -360,6 +360,45 @@ html {
   color: #f9e9ec;
 }
 
+.list-item {
+  margin-bottom: 10px;
+}
+
+/* take to next page */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button-container button {
+  margin: 0 500px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F9E9EC;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.button-container button a {
+  color: #F9E9EC;
+  text-decoration: none;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.button-container button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
 /* IRA page */
 section.abtIRA{
   width: 90vh;
