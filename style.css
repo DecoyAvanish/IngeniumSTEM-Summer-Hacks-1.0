@@ -106,14 +106,13 @@ html {
 }
 
 #acc,
-#support {
+#abt{
   background-color: #1d2f6f;
   color: #f9e9ec;
   padding: 4rem;
 }
 
-#abt,
-#inv {
+#support {
   background-color: #f9e9ec;
   color: #1d2f6f;
   padding: 4rem;
@@ -182,7 +181,7 @@ html {
 }
 
 #acc .col,
-#support .col{
+#abt .col{
   background-color: #8390FA;
   border-radius: 8px;
   padding: 20px;
@@ -191,7 +190,7 @@ html {
 }
 
 #acc .col h3,
-#support .col h3{
+#abt.col h3{
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem;
@@ -199,14 +198,13 @@ html {
 }
 
 #acc .col p,
-#support .col p{
+#abt .col p{
   font-size: 1.1rem;
   line-height: 1.8;
   color: #F9E9EC;
 }
 
-#abt .col,
-#inv .col{
+#support .col{
   background-color: #F88DAD;
   border-radius: 8px;
   padding: 20px;
@@ -214,16 +212,14 @@ html {
   margin: 20px;
 }
 
-#abt .col h3,
-#inv .col h3{
+#support .col h3{
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem;
   color: #FAC748;
 }
 
-#abt .col p,
-#inv .col p{
+#support .col p{
   font-size: 1.1rem;
   line-height: 1.8;
   color: #F9E9EC;
